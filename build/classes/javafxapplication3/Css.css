@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 de jan. de 2026, 15:17:14
+    Author     : gabri
+*/
+.root{
+    -fx-font-family:arial;
+}
+.Titulo{
+    -fx-font-size:22px; 
+    -fx-scale-x: 1.1;
+}
+.tituloRecuperar{
+    -fx-font-size:22px; 
+    -fx-scale-x: 1.1;
+}
+.paragrafo{
+    -fx-text-fill: gray;
+}
+.Titulo2{
+    -fx-font-size:22px;
+}
+.TituloCadas{
+    -fx-font-size:23px; 
+    -fx-scale-x: 1.1;
+}
+.erroSobre{
+     -fx-text-fill: red;
+}
+.erroNome{
+    -fx-text-fill:red;
+}
+
+.hyperlink{
+    -fx-border-color:transparent;
+    -fx-focus-color:transparet;
+    -fx-faint-focus-color:transparent;
+}
+.text-field{
+-fx-border-radius: 30px;
+-fx-background-radius: 30px;
+-fx-border-color: transparent;
+}
+.text-field:focused{
+-fx-focus-color:transparent;
+-fx-faint-focus-color:transparent;
+}
+.button{
+-fx-border-radius: 30px;
+-fx-background-radius: 30px;
+-fx-cursor: hand;
+-fx-border-color:transparent;
+-fx-focus-color:transparet;
+-fx-faint-focus-color:transparent;
+-fx-background-color: blue;
+-fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: blueviolet;
+}
+.button:pressed{
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
